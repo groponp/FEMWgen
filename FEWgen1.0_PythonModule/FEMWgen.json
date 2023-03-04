@@ -1,0 +1,13 @@
+{
+          "psff": "sistema.psf",
+          "pdbf": "sistema.pdb",
+          "Bin": 2,
+          "lresn": "POPC POPG",
+          "refprot": "resname TRP and name CH2",
+          "refmemb": "resname POPC POPG and name P",
+          "rstmemb": "serial 38224 40079 39148 39811 20055 14892 19787 18877",
+          "charmrunPATH": "False",
+          "namdPATH": "/Users/macbookpro/Documents/packages/NAMD_2.14_MacOSX-x86_64-multicore/namd2",
+          "nproc": 4,
+          "restart": "False"
+}

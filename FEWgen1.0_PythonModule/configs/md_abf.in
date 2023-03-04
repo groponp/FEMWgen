@@ -1,0 +1,28 @@
+Colvarstrajfrequency    500
+Colvarsrestartfrequency 500
+
+colvar {
+   name ProjectionZ
+
+   width 0.1
+
+   lowerboundary II.0
+   upperboundary SS.0
+
+   lowerwallconstant 10.0
+   upperwallconstant 10.0
+
+   distanceZ {
+      main {
+         atomnumbers { MMM }
+      }
+      ref  {
+         atomnumbers { RRR }
+      }
+   }
+}
+
+abf {
+  colvars ProjectionZ
+  fullSamples      1000
+}
