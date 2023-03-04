@@ -32,7 +32,7 @@ python FEMWgen.py --help
 
 ```bash
 #! Fot get usage example running
-python FEMWgen.py --usage=True 
+python FEMWgen.py --usage
 
 #! it can print following
 Common usage NAMD only:
