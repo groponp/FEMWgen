@@ -126,4 +126,4 @@ If you want to get a theoretical framework of this code please check out our kdd
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
