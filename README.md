@@ -1,6 +1,8 @@
 # FEMWgen  : A computational tool to generate multiple windows                     
 #            for free-energy calculations.  
 
+<img src="workflow_fix.jpg">
+
 ## Installation
 To use the code you can download using the following command:
 
