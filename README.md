@@ -31,7 +31,7 @@ python FEMWgen.py --help
 ```
 
 ```bash
-#! Fot get usage example running
+#! For get usage example running
 python FEMWgen.py --usage
 
 #! it can print following
