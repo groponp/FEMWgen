@@ -116,7 +116,7 @@ A configs file and sample coordinates and topology could be found in the FEWgen1
 ## Authors
 
 The code was written by :
-Alexandre Suman de Araujo, Luiz Fernando Zonetti e Ropón-Palacios G.
+Alexandre Suman de Araujo, Luiz Fernando Zonetti and Ropón-Palacios G.
 
 Main developer:
 Ropón-Palacios G. <groponp@gmail.com> 
