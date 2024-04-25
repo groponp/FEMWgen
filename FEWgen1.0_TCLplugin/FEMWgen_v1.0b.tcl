@@ -305,12 +305,12 @@ for {set i 1} {$i<=$N} {incr i} {
          #!--------------------------------
          if { $charmrun == "true" } {
 
-            charmrun +p$nprocs namd2 em_janela.conf >& min.log 
+            exec charmrun +p$nprocs namd2 em_janela.conf > min.log 
             puts "\[INFO   \] Olhe min.log file to check out progresso."
 
          } else {
 
-            namd2 +p$nprocs em_janela.conf >& min.log 
+            exec namd2 +p$nprocs em_janela.conf > min.log 
             puts "\[INFO   \] Olhe min.log file to check out progresso."
          }
 
