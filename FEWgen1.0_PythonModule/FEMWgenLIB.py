@@ -407,12 +407,12 @@ class MakeWindows:
 
 						if charm != "False":
 							print(Fore.RED + "[INFO   ] Performing Energy minimization. Check out min.log to view progress." + Fore.RESET)
-							os.system("{} +p{} {} {} >& min.log ".format(charmrun_exec, nproc, namd_exec, "em_janela.conf"))
+							os.system("{} +p{} {} {} > min.log ".format(charmrun_exec, nproc, namd_exec, "em_janela.conf"))
 							
 
 						else:
 							print(Fore.RED + "[INFO   ] Performing Energy minimization. Check out min.log to view progress." + Fore.RESET)
-							os.system("{} +p{} {} >& min.log ".format(namd_exec, nproc, "em_janela.conf"))
+							os.system("{} +p{} {} > min.log ".format(namd_exec, nproc, "em_janela.conf"))
 							
 
 						#! Load em binary coord
