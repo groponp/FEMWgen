@@ -39,7 +39,7 @@ parser.add_option("--chkpoint", help="Pass checkpoint file, if you like start sy
 parser.add_option("--jsonfile", help="JSON file contaning all paramters inputs, for restart system preparation.", default="FEMWgen.json", type=str)
 
 	#! Usage
-parser.add_option("--usage", help="Use it option to print into screen, example of command line.", action="store_true", default=True, dest="usage")
+parser.add_option("--usage", help="Use it option to print into screen, example of command line.", action="store_true", default=False, dest="usage")
 
 
 opts, args = parser.parse_args()
